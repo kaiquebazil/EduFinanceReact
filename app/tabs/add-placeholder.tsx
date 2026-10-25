@@ -1,0 +1,5 @@
+// Placeholder screen for the FAB tab slot - never rendered
+import { View } from 'react-native';
+export default function AddPlaceholder() {
+  return <View />;
+}
