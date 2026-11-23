@@ -1,51 +1,26 @@
 {
   "expo": {
-    "name": "Edufinance Mobile",
-    "slug": "abacusai-mobile-apps",
+    "name": "EduFinance",
+    "slug": "edufinance",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "icon": "./icon-512.png",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.abacusai.edufinancemobil.t1792709690",
-      "buildNumber": "1"
+      "bundleIdentifier": "com.kaiqueb.edufinance"
     },
     "android": {
+      "package": "com.kaiqueb.edufinance",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false,
-      "package": "com.abacusai.edufinancemobil.t1792709690",
-      "versionCode": 1,
-      "intentFilters": [
-        {
-          "action": "VIEW",
-          "autoVerify": true,
-          "data": [
-            {
-              "scheme": "abacusai1792709690",
-              "host": "*"
-            }
-          ],
-          "category": [
-            "BROWSABLE",
-            "DEFAULT"
-          ]
-        }
-      ]
+        "foregroundImage": "./assets/icons/android-adaptive-foreground.png",
+        "backgroundImage": "./assets/icons/android-adaptive-background.png"
+      }
     },
-    "web": {
-      "favicon": "./assets/favicon.png",
-      "output": "single"
-    },
-    "plugins": [
-      "expo-router",
-      "expo-font"
-    ],
-    "scheme": "abacusai1792709690"
+    "extra": {
+      "eas": {
+        "projectId": "bd2fcc74-fa37-40a0-afab-a9765427a511"
+      }
+    }
   }
 }

@@ -1,1 +1,1 @@
-# EduFinanceReact
+# EduFinance
